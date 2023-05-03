@@ -14,7 +14,6 @@ export default async function handler(req, res) {
             billing_address_collection: 'auto',
             shipping_options: [
                 { shipping_rate: 'shr_1N30jeBWdwCBjCORpUGiSSAJ',
-                  shipping_rate: 'shr_1N3jXGBWdwCBjCOR1poKij8V',
               },
             ],
             line_items: req.body.map((item) => {
