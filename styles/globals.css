@@ -52,6 +52,7 @@ width: 100%;
   animation: marquee 15s linear infinite;
   width: 180%;
 }
+
 .track:hover {
   animation-play-state: paused;
 }
