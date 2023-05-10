@@ -11,7 +11,7 @@ export default async function handler(req, res) {
         payment_method_types: ['card'],
         billing_address_collection: 'auto',
         shipping_options: [
-          { 
+          {  
               shipping_rate: 'shr_1N30jeBWdwCBjCORpUGiSSAJ',
           },
           {
@@ -24,7 +24,7 @@ export default async function handler(req, res) {
 
           return {
             price_data: { 
-              currency: 'usd',
+              currency: 'pln',
               product_data: { 
                 name: item.name,
                 images: [newImage],
